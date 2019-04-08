@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.munia.employeemanagement.AddressActivity">
+
+    <EditText
+        android:id="@+id/house_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter House No"/>
+
+    <EditText
+        android:id="@+id/road_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Road No"/>
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter City Name"/>
+
+    <EditText
+        android:id="@+id/zip_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Zip Code"/>
+
+    <Button
+        android:id="@+id/go_project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go project"
+        />
+
+</LinearLayout>
